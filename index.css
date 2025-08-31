@@ -13,21 +13,24 @@ main{
     z-index: 100;
     column-gap:  240px;
     
+    
 }
 main .main-intro h1{
-    font-size: 76px;
-    line-height: 86px;
+    font-size: 7.6rem;
+    line-height: 1.1;
+    
    
 
 }
 main p{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 1.75;
+    max-width: 500px;
 
 }
 main a{
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: block;
     background-color: blue;
     padding: 10px 20px;
@@ -74,13 +77,13 @@ main .main-quotes{
     padding-bottom: 40px;
     flex-basis: 100%;
     text-transform: uppercase;
-   font-size: 22px;
+   font-size: 2.2rem;
 
 
 }
 .index-category-box{
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     background-color: #111;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,8 +127,8 @@ main .main-quotes{
     
 }
 .index-category-box h3{
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 2.2rem;
+    line-height: 1.5;
     text-align: center;
     text-shadow: -2px 2px 4px #000;
     z-index: 100;
@@ -136,9 +139,14 @@ main .main-quotes{
     width: 100%;
     padding: 60px 0;
     background-image:url(images/dark.jpg);
+
+}
+
+.index-about-flex{
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 60px;
 }
 .index-about-image img{
     width: 300px;
@@ -154,12 +162,12 @@ main .main-quotes{
 }
 .index-about-text a{
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: block;
     background-color: blue;
     padding: 10px 20px;
     width: fit-content;
-    border-radius: 30px;
+    border-radius: 2px;
 
 }
 .index-about-text a:hover{
@@ -191,4 +199,104 @@ main .main-quotes{
 
 .python {
     width: 48%;
+}
+
+
+/* MOBILE VERSION */
+@media  only screen and (max-width: 600px){
+
+    main{
+    align-items: flex-end;
+
+    
+    }
+
+    main .main-intro{
+        padding-bottom: 8vh;
+    }
+
+
+
+
+    main .main-intro h1{
+        font-size: 3.0rem;
+        line-height: 1.25;
+        text-align: center;
+        
+    
+   
+
+    }
+    main p{
+        text-align: center;
+        padding: 0 20px;
+        font-size: 1.6rem;
+        line-height: 1.75;
+        font-weight: bold;
+
+    }
+    main a{
+        margin: 30px auto;
+    }
+
+    main .main-quotes p{
+            display: none;
+    }
+
+/* CATEGORY SECTION */
+    .index-category{
+        padding: 40px 0 20px;
+        row-gap: 10px;
+
+
+}
+
+
+    .index-category p{
+        padding-bottom: 20px;
+
+
+
+    }
+    .index-category-box{
+        width: calc(100% - 20px);
+        height: 160px;
+      
+
+    }
+    /* about section*/
+
+    .index-about-flex{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .index-about-image{
+        width: 60%;
+        
+
+    }
+    .index-about-image img{
+        width: 100%;
+        
+
+    }
+    .index-about-text{
+        flex-basis: 100%;
+    }
+
+
+    .index-about-text h2{
+        text-align: center;
+
+    }
+    .index-about-text p{
+        text-align: center;
+
+    }
+    .index-about-text a{
+        margin: 0 auto 10px;
+     
+
+    }
 }
