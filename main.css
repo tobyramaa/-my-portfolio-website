@@ -213,8 +213,23 @@ a{
 
 }
 
-.buger-menu, 
+.buger-menu{
+    display: none;            /* hidden by default */
+    position: absolute;       /* floats on top */
+    top: 40px;                /* right below your fixed header (40px tall) */
+    right: 0;
+    width: 200px;
+    background: white;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    z-index: 999;             /* keeps it above content */
+}
+
+
 .burger-menu-btn{
+    display: none;
+}
+.burger-menu ul{
     display: none;
 }
 /* MOBILE VERSION */
