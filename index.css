@@ -187,10 +187,10 @@ main .main-quotes{
 }
 
 .htmlcss {
-    width: 48%;
+    width: 78%;
 }
 .js {
-    width: 55%;
+    width: 75%;
 }
 
 .ps {
@@ -198,7 +198,10 @@ main .main-quotes{
 }
 
 .python {
-    width: 48%;
+    width: 78%;
+}
+.react{
+    width: 65%;
 }
 
 
@@ -213,6 +216,8 @@ main .main-quotes{
 
     main .main-intro{
         padding-bottom: 8vh;
+        
+        
     }
 
 
@@ -220,8 +225,10 @@ main .main-quotes{
 
     main .main-intro h1{
         font-size: 3.0rem;
+        padding-left: 0.9rem;
         line-height: 1.25;
-        text-align: center;
+        text-align: left;
+        
         
     
    
@@ -229,14 +236,16 @@ main .main-quotes{
     }
     main p{
         text-align: center;
-        padding: 0 20px;
+        padding-left: 0.9rem;
         font-size: 1.6rem;
         line-height: 1.75;
         font-weight: bold;
+        text-align: left;
 
     }
     main a{
-        margin: 30px auto;
+        margin: 1.0rem;
+        
     }
 
     main .main-quotes p{
