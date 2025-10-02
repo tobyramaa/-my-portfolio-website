@@ -213,8 +213,17 @@ a{
 
 }
 
+.copyright{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: white;
+    font-family: "Roboto", "cursive";
+    text-transform: lowercase;
+    margin-top: 20px;
+}
 
-.buger-menu{
+
+.burger-menu{
     display: none;            /* hidden by default */
     position: absolute;       /* floats on top */
     top: 40px;                /* right below your fixed header (40px tall) */

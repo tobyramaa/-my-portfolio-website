@@ -134,6 +134,42 @@ main .main-quotes{
     z-index: 100;
 
 }
+
+.projects-section {
+  padding: 60px 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #c13584;
+}
+
+.projects-section p {
+  margin-bottom: 40px;
+  font-size: 1.6rem;
+  color: #ccc;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
 /* about section*/
 .index-about{
     width: 100%;
@@ -203,6 +239,8 @@ main .main-quotes{
 .react{
     width: 65%;
 }
+
+
 
 
 /* MOBILE VERSION */
@@ -309,3 +347,4 @@ main .main-quotes{
 
     }
 }
+
